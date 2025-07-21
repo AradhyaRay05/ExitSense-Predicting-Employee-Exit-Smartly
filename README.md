@@ -29,7 +29,7 @@ With an intuitive Streamlit interface, HR professionals or analysts can input em
 
 
 ### 3. **Evaluation Metrics**
-- **Accuracy:** 98% (on test data)
+- **Accuracy:** 98%
 - Other metrics considered: Precision, Recall, F1-Score
 - Evaluated using confusion matrix and classification report
 
