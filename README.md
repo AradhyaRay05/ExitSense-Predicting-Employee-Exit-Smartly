@@ -62,7 +62,7 @@ ExitSense/
 ├── scaler.pkl                       # StandardScaler for input features
 ├── requirements.txt                # Project dependencies
 └── README.md                       # Project documentation
-
+```
 
 ## 📬 Contact
 
