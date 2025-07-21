@@ -70,7 +70,7 @@ ExitSense/
 - Clean and interactive UI for HR personnel
 - Real-time prediction of employee exit
 - Scalable and easy to customize with new features
-- Compatible with both local and cloud deployment
+- Designed to support proactive decision-making in HR
 
 ---
 
@@ -81,7 +81,9 @@ ExitSense/
 - Visual analytics dashboard using Plotly or Dash
 - Real-time integration with company databases or APIs
 - Alert system or retention suggestion engine
+- Deploy to cloud using Docker, Streamlit Sharing, or AWS
 
+---
 
 ## 📬 Contact
 
