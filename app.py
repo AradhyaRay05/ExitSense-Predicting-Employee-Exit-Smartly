@@ -5,8 +5,8 @@ import numpy as np
 # Load model and scaler
 @st.cache_resource
 def load_model():
-    model = joblib.load(r"D:\Education\Coding\Machine Learning\Machine Learning Projects\New folder\Employee Turnover Prediction copy\model.pkl")
-    scaler = joblib.load(r"D:\Education\Coding\Machine Learning\Machine Learning Projects\New folder\Employee Turnover Prediction copy\scaler.pkl")
+    model = joblib.load("model.pkl")
+    scaler = joblib.load("scaler.pkl")
     return model, scaler
 
 model, scaler = load_model()
