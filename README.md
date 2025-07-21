@@ -64,6 +64,25 @@ ExitSense/
 └── README.md                       # Project documentation
 ```
 
+
+## 🌟 Features
+
+- Clean and interactive UI for HR personnel
+- Real-time prediction of employee exit
+- Scalable and easy to customize with new features
+- Compatible with both local and cloud deployment
+
+---
+
+## 🔮 Future Enhancements
+
+- Add login-based dashboards for different HR roles
+- Include more advanced models like XGBoost or ensemble stacks
+- Visual analytics dashboard using Plotly or Dash
+- Real-time integration with company databases or APIs
+- Alert system or retention suggestion engine
+
+
 ## 📬 Contact
 
 <p>
