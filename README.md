@@ -1,11 +1,65 @@
-# Employee-Turnover-Prediction
+# ExitSense – Predicting Employee Exit Smartly
 
+## 🚀 Project Goal
 
-## 🛠️ Tech Stack
+**ExitSense** is a smart machine learning-powered web application designed to predict whether an employee is likely to exit a company based on key workplace features. It empowers HR teams with data-driven insights to proactively address attrition and improve retention strategies.
 
-- Python  
-- Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `TensorFlow`, `Keras`
-- Jupyter Notebook
+---
+
+## 📌 Project Overview
+
+Employee turnover is a major challenge for organizations, especially when exits are unexpected. ExitSense uses historical HR data and a trained machine learning model to identify exit risks based on factors like satisfaction level, evaluation scores, number of projects, and more.
+
+With an intuitive Streamlit interface, HR professionals or analysts can input employee data and receive real-time predictions on whether an employee is likely to leave or stay.
+
+---
+
+## 🔁 Project Workflow
+
+### 1. **Data Preprocessing**
+- Loaded and explored the HR dataset
+- Checked for missing/null values and outliers
+- Converted categorical features like `department` and `salary` using **one-hot encoding**
+- Combined similar roles (e.g., *support* and *IT* merged into *technical*) to simplify modeling
+- Applied **feature scaling** using `StandardScaler` to normalize input data for the model
+
+### 2. **Model Building**
+- Implemented and evaluated both **Logistic Regression** and **Random Forest Classifier**
+- After comparing model performance, **Random Forest** was selected as the final model due to its superior accuracy and robustness
+- Random Forest achieved an accuracy of **98%**, outperforming Logistic Regression
+
+### 3. **Evaluation Metrics**
+- **Accuracy:** 98% (on test data)
+- Other metrics considered: Precision, Recall, F1-Score
+- Evaluated using confusion matrix and classification report
+
+### 4. **Deployment**
+- Final model and scaler were saved using `joblib`
+- Built an interactive web app with **Streamlit** for live predictions
+- Input features are collected using sliders and dropdowns
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend & Interface:** Streamlit
+- **Programming Language:** Python 3.11
+- **Modeling & ML:** Scikit-learn, NumPy, Pandas, Joblib
+- **Visualization:** Matplotlib, Seaborn, Plotly
+- **Environment:** Jupyter Notebook
+
+---
+
+## 📁 Project Structure
+
+```bash
+ExitSense/
+├── app.py                          # Streamlit app interface
+├── model.pkl                       # Trained Random Forest model
+├── scaler.pkl                      # StandardScaler for input features
+├── Employee_Turnover_Prediction.ipynb  # Notebook for EDA and model training
+├── requirements.txt               # Project dependencies
+└── README.md                      # Project documentation
 
 ## 📬 Contact
 
