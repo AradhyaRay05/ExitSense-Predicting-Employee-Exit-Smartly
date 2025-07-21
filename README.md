@@ -54,12 +54,15 @@ With an intuitive Streamlit interface, HR professionals or analysts can input em
 
 ```bash
 ExitSense/
-├── app.py                          # Streamlit app interface
-├── model.pkl                       # Trained Random Forest model
-├── scaler.pkl                      # StandardScaler for input features
+├── Dataset/
+│   └── dataset.csv                  # HR dataset used for training
 ├── Employee_Turnover_Prediction.ipynb  # Notebook for EDA and model training
-├── requirements.txt               # Project dependencies
-└── README.md                      # Project documentation
+├── app.py                           # Streamlit app interface
+├── model.pkl                        # Trained Random Forest model
+├── scaler.pkl                       # StandardScaler for input features
+├── requirements.txt                # Project dependencies
+└── README.md                       # Project documentation
+
 
 ## 📬 Contact
 
