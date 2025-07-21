@@ -26,7 +26,7 @@ With an intuitive Streamlit interface, HR professionals or analysts can input em
 ### 2. **Model Building**
 - Implemented and evaluated both **Logistic Regression** and **Random Forest Classifier**
 - After comparing model performance, **Random Forest** was selected as the final model due to its superior accuracy and robustness
-- Random Forest achieved an accuracy of **98%**, outperforming Logistic Regression
+
 
 ### 3. **Evaluation Metrics**
 - **Accuracy:** 98% (on test data)
