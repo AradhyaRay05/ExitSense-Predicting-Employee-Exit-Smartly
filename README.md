@@ -58,7 +58,7 @@ ExitSense/
 │   └── dataset.csv                  # HR dataset used for training
 ├── .gitignore                       # Prevents Git from tracking unnecessary files
 ├── Employee_Turnover_Prediction.ipynb  # Notebook for EDA and model training
-├── LICENSE                          #Allows reuse, with attribution, no warranty
+├── LICENSE                          # Allows reuse, with attribution, no warranty
 ├── README.md                       # Project documentation
 ├── app.py                           # Streamlit app interface
 ├── model.pkl                        # Trained Random Forest model
