@@ -83,7 +83,6 @@ ExitSense/
 - Visual analytics dashboard using Plotly or Dash
 - Real-time integration with company databases or APIs
 - Alert system or retention suggestion engine
-- Deploy to cloud using Docker, Streamlit Sharing, or AWS
 
 ---
 
