@@ -56,7 +56,7 @@ With an intuitive Streamlit interface, HR professionals or analysts can input em
 ExitSense/
 ├── Dataset/
 │   └── dataset.csv                  # HR dataset used for training
-├── .gitignore                       #Prevents Git from tracking unnecessary files
+├── .gitignore                       # Prevents Git from tracking unnecessary files
 ├── Employee_Turnover_Prediction.ipynb  # Notebook for EDA and model training
 ├── LICENSE                          #Allows reuse, with attribution, no warranty
 ├── README.md                       # Project documentation
