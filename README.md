@@ -56,12 +56,14 @@ With an intuitive Streamlit interface, HR professionals or analysts can input em
 ExitSense/
 ├── Dataset/
 │   └── dataset.csv                  # HR dataset used for training
+├── .gitignore                       #Prevents Git from tracking unnecessary files
 ├── Employee_Turnover_Prediction.ipynb  # Notebook for EDA and model training
-├── app.py                           # Streamlit app interface
-├── model.pkl                        # Trained Random Forest model
+├── LICENSE                          #Allows reuse, with attribution, no warranty
+├── README.md                       # Project documentation
+├── 
 ├── scaler.pkl                       # StandardScaler for input features
 ├── requirements.txt                # Project dependencies
-└── README.md                       # Project documentation
+└── 
 ```
 
 
