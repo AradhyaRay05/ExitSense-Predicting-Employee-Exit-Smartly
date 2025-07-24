@@ -60,7 +60,7 @@ ExitSense/
 ├── Employee_Turnover_Prediction.ipynb  # Notebook for EDA and model training
 ├── LICENSE                          #Allows reuse, with attribution, no warranty
 ├── README.md                       # Project documentation
-├── 
+├── app.py                           # Streamlit app interface
 ├── scaler.pkl                       # StandardScaler for input features
 ├── requirements.txt                # Project dependencies
 └── 
