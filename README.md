@@ -65,7 +65,7 @@ ExitSense/
 ├── requirements.txt                      # Project dependencies
 └── scaler.pkl                            # StandardScaler for input features
 ```
-
+---
 
 ## 🌟 Features
 
