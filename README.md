@@ -62,7 +62,7 @@ ExitSense/
 ├── README.md                             # Project documentation
 ├── app.py                                # Streamlit app interface
 ├── model.pkl                             # Trained Random Forest model
-├── requirements.txt                # Project dependencies
+├── requirements.txt                      # Project dependencies
 └── scaler.pkl                       # StandardScaler for input features
 ```
 
